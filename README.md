@@ -1,6 +1,6 @@
 # 🎵 PromptMelody: Autonomous AI Music Pipeline
 
-An autonomous, stateful AI agent that manages the end-to-end production of AI-generated music. Built with **LangGraph**, it acts as an asynchronous pipeline that reads prompts from a Google Sheet, generates high-fidelity audio via the **ElevenLabs API**, stores the `.mp3` files securely in **Google Drive**, and updates the database with shareable links.
+Meet PromptMelody, An autonomous, stateful AI agent that manages the end-to-end production of AI-generated music. Built with **LangGraph**, it acts as an asynchronous pipeline that reads prompts from a Google Sheet, generates high-fidelity audio via the **ElevenLabs API**, stores the `.mp3` files securely in **Google Drive**, and updates the database with shareable links.
 
 ## 🧠 Why this architecture?
 Instead of a simple linear script, this project uses **LangGraph** to construct a resilient, stateful workflow. 
